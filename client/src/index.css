@@ -17,6 +17,10 @@ body {
   transform: translate(-50%, -100%);
 }
 
+.error {
+  color: #f8c102;
+}
+
 .marker.yellow path {
   fill: #f8c102;
 }
@@ -30,11 +34,19 @@ body {
   padding: 1rem;
 }
 
+.popup img {
+  height: 200px;
+  width: auto;
+  text-align-last: center;
+  margin: 0 auto;
+  display: block;
+}
+
 .entry-form label,
 .entry-form input,
 .entry-form textarea,
 .entry-form button {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 0.5rem 0;
   display: block;
   width: 100%;
