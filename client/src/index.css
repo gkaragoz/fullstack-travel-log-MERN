@@ -17,6 +17,14 @@ body {
   transform: translate(-50%, -100%);
 }
 
+.marker.yellow path {
+  fill: #f8c102;
+}
+
+.marker.blue path {
+  fill: #61dafb;
+}
+
 .popup {
-  max-width: 300px;
+  max-width: 400px;
 }
